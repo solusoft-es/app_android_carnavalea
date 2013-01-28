@@ -64,7 +64,7 @@ You can configure your own ArcGIS feature service if you want to use it:
 
  ```java
  
-public static  String URL = "http://services.arcgis.com/J0LkSSo5nrFzlDZZ/arcgis/rest/services/carnavalea_poi/FeatureServer/0/addFeatures";
+public static  String URL = "http://services.arcgis.com/XXXXXXXXXXXXXX/arcgis/rest/services/carnavalea_poi/FeatureServer/0/addFeatures";
   
 ```
 
