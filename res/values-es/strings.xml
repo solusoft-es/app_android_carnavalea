@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Carnavalea</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="pickgallery">pickgallery</string>
+    <string name="takepic">takepicy</string>
+    <string name="opengallery">opengallery</string>
+    <string name="nVotosMas">400</string>
+    <string name="about">Acerca de</string>
+    <string name="exit">Salir</string>
+    <string name="title_capture_joke">CAPTURA TU DISFRAZ</string>
+    <string name="hint_joke_desc">Añade la descripción del disfraz </string>
+    <string name="title_List_joke">LISTADO DE DISFRACES</string>
+    <string name="title_MyList_joke">MIS DISFRACES</string>
+    <string name="title_near_joke">DISFRACES CERCANOS</string>
+    <string name="level_bromista">Nivel de disfraces:</string>
+    <string name="INFORMACION">Info</string>
+    <string name="PublicarBroma">Publicando disfraz</string>
+    <string name="NoPublicada">Disfraz no publicado</string>
+    <string name="ErrorCarga">Error al cargar los disfraces</string>
+    <string name="cargandobromas">Cargando disfraz</string>
+    <string name="espere">Por favor espere</string>
+    <string name="publicar">Publicar</string>
+    <string name="evotacion">Registrando el voto</string>
+    <string name="lista_vacia">Aun no has publicado ningun disfraz</string>
+    <string name="pull_to_refresh_pull_label">Desliza para refrescar...</string>
+    <string name="pull_to_refresh_release_label">Suelta para refrescar...</string>
+    <string name="pull_to_refresh_refreshing_label">Cargando...</string>
+    <string name="pull_to_refresh_tap_label">Pulse para refrescar...</string>
+    <string name="sharing">Mira que disfraz de #Carnaval {uri} Vía #Carnavalea http://bit.ly/carnavalea</string>
+    <string name="sharing_title">¿Deseas compartir este disfraz con tus amigos?</string>
+    <string name="sharing_ok">Si</string>
+    <string name="sharing_cancel">No</string>
+    <string name="share">Compartir por</string>
+
+</resources>

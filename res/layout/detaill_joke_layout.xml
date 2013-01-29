@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/cabecera"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:minWidth="400dp"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:paddingLeft="10dip"
+            android:paddingRight="60dip"
+            android:src="@drawable/logo_carnavalea_modals" />
+
+        <ImageButton
+            android:id="@+id/gotoMap"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/transparent"
+            android:padding="10dp"
+            android:src="@drawable/go_to_map_style" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/ButtonVote"
+        android:layout_below="@+id/cabecera"
+        android:layout_margin="10dp"
+        android:background="@drawable/border"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/ScrollViewContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <es.solusoft.santosinocentes.widget.ResizableImageView
+                android:id="@+id/fotoBroma"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/boton_foto" />
+
+            <TextView
+                android:id="@+id/descripccionBroma"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@+id/fotoBroma"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="hola"
+                android:textColor="@android:color/black" />
+        </RelativeLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/ButtonVote"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_above="@+id/publicidad"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:id="@+id/votosMas"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/bt_mas1_style" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/textoMas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:paddingLeft="30dp"
+                android:text="@string/nVotosMas"
+                android:textColor="@android:color/white"
+                android:textSize="25dip" >
+            </TextView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:id="@+id/votosMenos"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/bt_menos1_style" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/textoMenos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:paddingLeft="30dp"
+                android:text="@string/nVotosMas"
+                android:textColor="@android:color/white"
+                android:textSize="25dip" >
+            </TextView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:id="@+id/share"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/bt_share_style" >
+            </ImageView>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/publicidad"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <com.google.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            ads:adSize="BANNER"
+            ads:adUnitId="xxxxxxxxxxxxxxx"
+            ads:loadAdOnCreate="true"
+            ads:testDevices="TEST_EMULATOR" />
+    </LinearLayout>
+
+</RelativeLayout> <!-- Fin del layout principal -->

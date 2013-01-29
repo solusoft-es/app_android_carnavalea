@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="50dp" >
+
+        <TextView
+            android:id="@+id/ListadeBromas"
+            style="@style/section_title_pestana1"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="10dp"
+            android:text="@string/title_capture_joke" />
+
+        <ImageView
+            android:id="@+id/ImageView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/captura_style"
+            android:scaleType="centerCrop" />
+
+        <es.solusoft.santosinocentes.internal.ExtendedEditText
+            android:id="@+id/Descripcion"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="18dip"
+            android:layout_marginRight="18dip"
+            android:layout_marginTop="10dip"
+            android:hint="@string/hint_joke_desc"
+            android:typeface="sans"
+            android:maxLength="140" 
+            android:background="@drawable/border"/>
+
+        <Button
+            android:id="@+id/Publicar"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/publicar"
+            android:textColor="@android:color/white"
+            android:textColorHighlight="@android:color/black"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:background="@drawable/publicar_style"
+            android:gravity="center" />
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,80 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+
+
+
+
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+
+
+
+
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="section_title_pestana1">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">23dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@color/blue</item>
+        <item name="android:shadowColor">@color/grey</item>
+        <item name="android:layout_height">40dp</item>
+    </style>
+
+    <style name="section_title_pestana2">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">23dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@color/red</item>
+        <item name="android:shadowColor">@color/grey</item>
+        <item name="android:layout_height">40dp</item>
+    </style>
+
+    <style name="section_title_pestana3">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">23dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@color/green</item>
+        <item name="android:shadowColor">@color/grey</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_marginBottom">0dp</item>
+    </style>
+
+    <style name="section_title_pestana4">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">23dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@color/magenta</item>
+        <item name="android:shadowColor">@color/grey</item>
+        <item name="android:layout_height">40dp</item>
+    </style>
+
+    <style name="map_section_title" parent="section_title_pestana3">
+        <item name="android:layout_marginBottom">0dp</item>
+    </style>
+
+</resources>

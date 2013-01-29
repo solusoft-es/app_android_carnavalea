@@ -1,0 +1,6 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:drawable="@color/red"/>
+    <item android:drawable="@drawable/boton_lista_activo"/>
+
+</layer-list>

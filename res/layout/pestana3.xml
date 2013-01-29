@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/ListadeBromas"
+        style="@style/section_title_pestana3"
+        android:layout_width="match_parent"
+        android:text="@string/title_near_joke" />
+    
+    <com.google.android.maps.MapView
+        android:id="@+id/mapview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/ads"
+        android:layout_below="@id/ListadeBromas"
+        android:apiKey="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+        android:clickable="true"
+        android:enabled="true" />
+
+    <ImageButton
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_above="@+id/mapview"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="5dp"
+        android:background="@android:color/transparent"
+        android:onClick="onRefresh"
+        android:src="@drawable/actualizar_map_style" />
+
+</RelativeLayout>

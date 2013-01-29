@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Carnavalea</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="pickgallery">pickgallery</string>
+    <string name="takepic">takepicy</string>
+    <string name="opengallery">opengallery</string>
+    <string name="nVotosMas">400</string>
+    <string name="about">About</string>
+    <string name="exit">Exit</string>
+    <string name="title_capture_joke">CAPTURE YOUR COSTUME</string>
+    <string name="hint_joke_desc">Add custome description </string>
+    <string name="title_List_joke">COSTUME LIST</string>
+    <string name="title_MyList_joke">MY COSTUMES</string>
+    <string name="title_near_joke">NEAR JOKES</string>
+    <string name="level_bromista">Your level is </string>
+    <string name="INFORMACION">Info</string>
+    <string name="PublicarBroma">Publishing costume</string>
+    <string name="NoPublicada">Unpublished costume</string>
+    <string name="ErrorCarga">Error loading costumes</string>
+    <string name="cargandobromas">Loading costumes</string>
+    <string name="espere">Please wait</string>
+    <string name="evotacion">Rating</string>
+    <string name="publicar">Public</string>
+    <string name="lista_vacia">You has not posted any costumes</string>
+    <string name="pull_to_refresh_pull_label">Pull to refresh...</string>
+    <string name="pull_to_refresh_release_label">Release to refresh...</string>
+    <string name="pull_to_refresh_refreshing_label">Loading...</string>
+    <string name="pull_to_refresh_tap_label">Tap to refresh...</string>
+    <string name="sharing">Look at this #Carnival costume! {uri} Vía #Carnavalea http://bit.ly/carnavalea</string>
+    <string name="sharing_title">Do you want to share this costume with your friends?</string>
+    <string name="sharing_ok">Yes</string>
+    <string name="sharing_cancel">No</string>
+    <string name="share">Share via</string>
+
+</resources>
